@@ -284,3 +284,8 @@ Consider defining a bean of type 'org.springframework.security.crypto.password.P
 10:35:25.190 TRACE --- [http-nio-80-exec-4] c.r.m.UserMapper.readAuthorities : <==        Row: ROLE_ADMIN 
 10:35:25.191 TRACE --- [http-nio-80-exec-4] c.r.m.UserMapper.readAuthorities : <==        Row: ROLE_USER 
 10:35:25.191 DEBUG --- [http-nio-80-exec-4] c.r.m.UserMapper.readAuthorities : <==      Total: 2 
+10:38:22.964 INFO  --- [restartedMain] com.restdemo.RestdemoApplication : Starting RestdemoApplication using Java 22.0.1 with PID 60715 (/Users/rngooqw/Documents/ij/restdemo/build/classes/java/main started by rngooqw in /Users/rngooqw/Documents/ij/restdemo) 
+10:38:22.965 DEBUG --- [restartedMain] com.restdemo.RestdemoApplication : Running with Spring Boot v3.3.0, Spring v6.1.8 
+10:38:22.966 INFO  --- [restartedMain] com.restdemo.RestdemoApplication : No active profile set, falling back to 1 default profile: "default" 
+10:38:24.009 DEBUG --- [restartedMain] com.restdemo.config.JwtAuthFilter : Filter 'jwtAuthFilter' configured for use 
+10:38:24.363 INFO  --- [restartedMain] com.restdemo.RestdemoApplication : Started RestdemoApplication in 1.765 seconds (process running for 2.157) 
