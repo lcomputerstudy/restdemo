@@ -57,4 +57,5 @@
         UPDATE
         u_id = #{username}
     </insert>
+
 </mapper>
